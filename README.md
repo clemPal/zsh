@@ -17,7 +17,7 @@ version is 4.3.11.
 
   2. Clone the repository:
 
-        git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+        git clone --recursive https://github.com/clemPal/zsh "${ZDOTDIR:-$HOME}/.zprezto"
 
   3. Create a new Zsh configuration by copying the Zsh configuration files
      provided:
@@ -27,11 +27,15 @@ version is 4.3.11.
           ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
         done
 
-  4. Set Zsh as your default shell:
+  4. Download the font for the shell on:
+  
+        https://gist.github.com/qrush/1595572
+
+  5. Set Zsh as your default shell:
 
         chsh -s /bin/zsh
 
-  5. Open a new Zsh terminal window or tab.
+  6. Open a new Zsh terminal window or tab.
 
 ### Troubleshooting
 
